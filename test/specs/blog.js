@@ -14,6 +14,6 @@ describe("Blog", () => {
     }
 
     // Assert the total length of the list is 5
-    await expect(recentPostsList).toHaveLength(5);
+    await expect(recentPostsList).toHaveLength(4);
   });
 });
