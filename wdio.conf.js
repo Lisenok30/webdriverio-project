@@ -3,8 +3,11 @@ const allure = require('allure-commandline')
 exports.config = {
     //
     // ====================
-    // Runner Configuration
+    //  BrowswerStack Config
     // ====================
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    // 
     //
     //
     // ==================
