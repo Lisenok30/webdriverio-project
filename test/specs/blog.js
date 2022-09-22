@@ -13,7 +13,7 @@ describe("Blog", () => {
       await expect(text.length).toBeGreaterThan(10);
     }
 
-    // Assert the total length of the list is 4
-    await expect(recentPostsList).toHaveLength(4);
+    // Assert the total length of the list is 5
+    await expect(recentPostsList).toHaveLength(5);
   });
 });
